@@ -1,0 +1,13 @@
+<odoo>
+    <data>
+      <record id="rma_status_inherit" model="ir.ui.view">
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_order_form"/>
+        <field name="arch" type="xml">
+          <xpath expr="//field[@name='confirmation_date']" position="after">
+            <field name="rma_check"/>
+          </xpath>
+        </field>
+      </record>
+    </data>
+</odoo>
