@@ -6,7 +6,7 @@
         Se agregan campos al formulario orden de venta para conocer si esta cuenta con una orden de devolución""",
 
     'description': """
-        Estatus de producto para conocer si es un producto devuelto
+        Se agregan campos al formulario orden de venta con el estatus de RMA para conocer si esta misma cuenta con una orden de devolución
     """,
 
     'author': "Wonder Brands",
